@@ -6,7 +6,7 @@
 favicon: /favicon.ico
 
 # Set default keywords (Use a comma to separate)
-keywords: "Hexo, NexT"
+keywords: "Program,Machine Learning"
 
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
@@ -14,7 +14,7 @@ keywords: "Hexo, NexT"
 rss:
 
 # Specify the date when the site was setup
-#since: 2015
+since: 2015
 
 
 
@@ -50,15 +50,15 @@ menu_icons:
 
 
 
-
+  
 # ---------------------------------------------------------------
 # Scheme Settings
 # ---------------------------------------------------------------
 
 # Schemes
 #scheme: Muse
-scheme: Mist
-#scheme: Pisces
+# scheme: Mist
+scheme: Pisces
 
 
 # ---------------------------------------------------------------
@@ -98,8 +98,8 @@ font:
   # The `size` option use `px` as unit
   logo:
     external: true
-    family:
-    size:
+    family: Courgette
+    size: 18
 
   # Font settings for <code> and code blocks.
   codes:
@@ -117,8 +117,10 @@ font:
 # Social Links
 # Key is the link label showing to end users.
 # Value is the target link (E.g. GitHub: https://github.com/iissnan)
-#social:
+social:
   #LinkLabel: Link
+  GitHub: https://github.com/glymehrvrd
+  Weibo: http://weibo.com/u/2517436750
 
 
 # Social Links Icons
@@ -208,8 +210,8 @@ scroll_to_more: true
 # Automatically Excerpt. Not recommand.
 # Please use <!-- more --> in the post to control excerpt accurately.
 auto_excerpt:
-  enable: false
-  length: 150
+  enable: true
+  length: 300
 
 
 # Wechat Subscriber
@@ -238,7 +240,7 @@ mathjax:
 #baidu_analytics:
 
 # Duoshuo ShortName
-#duoshuo_shortname:
+duoshuo_shortname: glyme
 
 # Disqus
 #disqus_shortname:
